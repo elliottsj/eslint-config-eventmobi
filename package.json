@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/EventMobi/eslint-config-eventmobi#readme",
   "peerDependencies": {
-    "eslint": ">=0.20.0 <1.0.0"
+    "eslint": "^1.0.0"
   }
 }
