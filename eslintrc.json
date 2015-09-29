@@ -19,7 +19,7 @@
     "strict": [2, "global"],
     "space-after-keywords": [2, "always"],
     "space-before-blocks": 2,
-    "space-before-function-parentheses": [2, "never"],
+    "space-before-function-paren": [2, "never"],
     "valid-jsdoc": [2, { "requireReturn": false }]
   }
 }
