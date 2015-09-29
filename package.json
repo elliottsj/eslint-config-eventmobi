@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-eventmobi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EventMobi's base ESLint configuration",
   "main": "index.js",
   "scripts": {
