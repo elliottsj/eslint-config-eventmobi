@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-eventmobi",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "EventMobi's base ESLint configuration",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/EventMobi/eslint-config-eventmobi#readme",
   "peerDependencies": {
-    "eslint": "^1.0.0"
+    "eslint": "^1.7.0",
+    "eslint-config-standard": "~4.4.0"
   }
 }
