@@ -15,8 +15,11 @@
     "url": "https://github.com/EventMobi/eslint-config-eventmobi/issues"
   },
   "homepage": "https://github.com/EventMobi/eslint-config-eventmobi#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "4.0.0"
+  },
   "peerDependencies": {
-    "eslint": "^1.10.0",
-    "eslint-config-standard": "~4.4.0"
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.16.1"
   }
 }
