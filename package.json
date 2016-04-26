@@ -16,11 +16,19 @@
   },
   "homepage": "https://github.com/EventMobi/eslint-config-eventmobi#readme",
   "dependencies": {
-    "eslint-config-airbnb": "7.0.0"
+    "eslint-config-airbnb": "8.0.0",
+    "eslint-config-airbnb-base": "1.0.4"
   },
   "peerDependencies": {
     "eslint": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-jsx-a11y": "^1.0.3",
+    "eslint-plugin-import": "^1.6.0",
     "eslint-plugin-react": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-config-airbnb-base": "^1.0.4",
+    "eslint-plugin-import": "^1.6.0"
   }
 }
