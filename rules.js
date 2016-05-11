@@ -2,6 +2,9 @@
  * Rules shared between the base and legacy configs
  */
 module.exports = {
+  // Allow anonymous functions
+  // http://eslint.org/docs/rules/func-names
+  'func-names': 0,
   // Allow dangling underscore, e.g. for manual Jest mocks
   // http://eslint.org/docs/rules/no-underscore-dangle
   'no-underscore-dangle': 0,
