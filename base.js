@@ -12,7 +12,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [2, {
       devDependencies: true,
       optionalDependencies: true,
-      peerDependencies: true
+      peerDependencies: true,
     }],
     // allow a default import name to match a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
