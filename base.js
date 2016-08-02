@@ -14,5 +14,8 @@ module.exports = {
       optionalDependencies: true,
       peerDependencies: true
     }],
+    // allow a default import name to match a named export
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
+    'import/no-named-as-default': 0,
   },
 };
