@@ -19,6 +19,6 @@ module.exports = {
     'import/no-named-as-default': 0,
     // Allow modules with a single export to use a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 0
+    'import/prefer-default-export': 0,
   },
 };
