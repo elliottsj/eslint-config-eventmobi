@@ -3,8 +3,20 @@ EventMobi's base ESLint configuration. Most rules are inherited from the excelle
 
 ### Install
 
+Because of [this](https://github.com/eslint/eslint/issues/3458) you must install the peer dependencies of the configuration. When you update eslint-config-eventmobi you may get peer dependency errors - running this command again should
+update the modules. Note that this assumes you are installing the latest version. If not, change latest to whatever version you are using.
+
 ```shell
-npm install --save-dev eslint-config-eventmobi eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
+(
+  export PKG=eslint-config-eventmobi;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
+```
+
+Alternatively you can manually view the peer dependencies required here by running
+
+```shell
+npm info "eslint-config-eventmobi@latest" peerDependencies
 ```
 
 ### Usage
