@@ -16,7 +16,7 @@ module.exports = {
     }],
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
-    'import/imports-first': 0, // disabled, pending https://github.com/benmosher/eslint-plugin-import/issues/472
+    'import/first': 0, // disabled, pending https://github.com/benmosher/eslint-plugin-import/issues/472
     // allow a default import name to match a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
     'import/no-named-as-default': 0,
