@@ -1,4 +1,4 @@
-Code Review Process & Considerations Doc: https://docs.google.com/document/d/1ICU5FxWZAHnrXinhQ6nQ2DU9tpslHgU8N5CfJy2nF1Q
+Code Review Process & Considerations Doc: https://eventmobi.atlassian.net/wiki/pages/viewpage.action?pageId=2097189
 
 #### What ticket is this for?
 *The PR is associated with a ticket that has defined acceptance criteria. Tickets are important as they give us all visibility into the work being done and its status and value.*
