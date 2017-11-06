@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-eventmobi",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "EventMobi's base ESLint configuration",
   "main": "index.js",
   "license": "UNLICENSED",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --ext .js .",
     "test": "npm run lint"
   },
   "repository": {
@@ -18,22 +18,19 @@
   },
   "homepage": "https://github.com/EventMobi/eslint-config-eventmobi#readme",
   "dependencies": {
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-config-airbnb-base": "11.1.2"
-  },
-  "peerDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-airbnb-base": "12.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint": "4.10.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
   },
-  "scripts": {
-    "test": "eslint --ext .js ."
+  "peerDependencies": {
+    "eslint": "4.10.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
   }
 }
